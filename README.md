@@ -27,7 +27,6 @@
 
 ## 3. Заменить заглушки
 
-- `hello@[your-domain]` в футере `index.html`.
 - `og:image`: замените `assets/brand/og-image.jpg` на полный адрес `https://ваш-домен/assets/brand/og-image.jpg` — так превью ссылки появится в соцсетях и мессенджерах.
 - `privacy.html` и `terms.html` — это шаблоны: заполните поля в `[квадратных скобках]` и покажите юристу.
 

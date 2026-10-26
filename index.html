@@ -602,7 +602,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms</a>
       <a href="#faq">FAQ</a>
-      <span>hello@[your-domain]</span>
+      <a href="mailto:info@follow.com.ai">info@follow.com.ai</a>
     </nav>
   </div>
 </footer>
@@ -714,7 +714,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
     var a = answers();
     track('form_complete',{skipped:!!skipped});
     send({type:'survey', lead_id:leadId, email:emailEl.value.trim(), answers:a, skipped:!!skipped, ts:new Date().toISOString()}).catch(function(){});
-    var base = location.origin && location.origin !== 'null' ? location.origin + location.pathname : 'https://[your-domain]/';
+    var base = location.origin && location.origin !== 'null' ? location.origin + location.pathname : 'https://thegoshikus.github.io/follow_landing_page/';
     document.getElementById('ref-link').value = base + '?ref=' + refCode;
     survey.hidden = true; done.hidden = false;
   }
